@@ -9,6 +9,8 @@ const loginUser = async (req, res) => {
 }
 
 
+
+
 // signup user
 const signupUser = async (req, res) => {
     const {email, password} = req.body
